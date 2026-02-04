@@ -6,6 +6,7 @@ RUN apk update && apk add --no-cache \
     docker \
     docker-cli-buildx \
     docker-credential-ecr-login \
+    aws-cli \
     bash \
     git \
     ca-certificates
